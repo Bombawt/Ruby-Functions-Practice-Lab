@@ -39,3 +39,7 @@ def number_to_short_month_name(month_number)
   months = {1 => "January", 10 => "October", 4 => "April"}
   return months[month_number][0,3]
 end
+
+def volume_of_cube(length, width, height)
+  return volume = (length * width * height)
+end
