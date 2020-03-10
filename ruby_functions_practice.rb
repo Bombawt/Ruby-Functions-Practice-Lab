@@ -34,3 +34,8 @@ def number_to_full_month_name(month_number)
   months = {1 => "January", 3 => "March", 9 => "September"}
   return months[month_number]
 end
+
+def number_to_short_month_name(month_number)
+  months = {1 => "January", 10 => "October", 4 => "April"}
+  return months[month_number][0,3]
+end
